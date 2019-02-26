@@ -1,6 +1,6 @@
 ## otto框架
 一个Android中使用得比较多的android 事件总线 EventBus模式的一个框架Otto。
-###一、Android Studio中配置Otto (Eclipse中直接下载jar包导入)
+### 一、Android Studio中配置Otto (Eclipse中直接下载jar包导入)
 
 跟之前介绍的其他的框架一样，它只需要简单地在build.gradle中配置下面一行红色字体即可
 
@@ -11,9 +11,9 @@ dependencies {
     compile 'com.squareup:otto:+' 
 }
 
-###二、Otto事件总线框架浅析
+### 二、Otto事件总线框架浅析
 
-####1、为什么要用Otto框架？
+#### 1、为什么要用Otto框架？
 
 Otto框架的主要功能是帮助我们来降低多个类之间的耦合度的（解耦）。
 
@@ -25,7 +25,7 @@ Otto框架的主要功能是帮助我们来降低多个类之间的耦合度的�
 
 那么它将会接受到这个事件，做出相应的操作。这样就被解耦了。
 
-####2. Otto框架使用(结合代码介绍)
+#### 2. Otto框架使用(结合代码介绍)
 
 Otto框架其实相对之前的几个Android开源框架来说，更容易理解。
 
